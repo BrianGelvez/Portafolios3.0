@@ -1,4 +1,8 @@
 {
+	"name": "portafolios3-0",
+	"version": "1.0.0",
+	"description": "Portafolio de briangelvez",
+	"author": "briangelvez",
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
@@ -102,4 +106,5 @@
 		"webpack-bundle-analyzer": "^4.10.2",
 		"webpack-cli": "^5.1.4"
 	}
+	
 }

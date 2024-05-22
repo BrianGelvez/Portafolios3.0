@@ -192,34 +192,6 @@ const DevelopmentNotice: React.FC = () => {
                             padding: '10px',
                         }}
                     >
-                        {/* <p>
-                            Current Version:{' '}
-                            {versionDetails ? (
-                                <a
-                                    href={`https://github.com/muhammad-fiaz/portfolio/releases/tag/v${versionDetails.currentVersion}`}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    {versionDetails.currentVersion}
-                                </a>
-                            ) : 'Loading...'}{' '}
-                            -{' '}
-                            {versionDetails && versionDetails.isLatestVersion ? (
-                                'Everything is up to date!👻'
-                            ) : (
-                                <>
-                                    {versionDetails ? (
-                                        <a
-                                            href={versionDetails.releasesUrl}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            New Version {versionDetails.latestVersion} available🎉
-                                        </a>
-                                    ) : 'Checking for updates...'}
-                                </>
-                            )}
-                        </p> */}
                     </div>
                 )}
             </div>

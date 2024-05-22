@@ -1,17 +1,14 @@
-
 import {Head, Html, Main, NextScript} from 'next/document'
 import Script from 'next/script';
 import React from "react";
 
-
 export default function Document() {
-	return (
-		<Html lang="en">
-
+    return (
+        <Html lang="en">
             <Head>
                 {/*
-				Author: Muhammad Fiaz
-                 GitHub: Visit the GitHub repository at https://github.com/muhammad-fiaz/portfolio/ for more details.
+                Author: Brian Gelvez
+                 GitHub: Visit the GitHub repository at https://github.com/BrianGelvez for more details.
                  license: MIT License
                   */}
                 <meta charSet="utf-8"/>
@@ -19,7 +16,7 @@ export default function Document() {
                 {/* eslint-disable-next-line @next/next/no-title-in-document-head */}
                 <title>Web Brian Gelvez 👨‍💻</title>
                 {/* <meta name="description"
-                      content="Muhammad Fiaz - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey."/> */}
+                      content="Brian Gelvez - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey."/> */}
 
                 {/*These are need for PWA*/}
                 <meta name="apple-mobile-web-app-capable" content="yes"/>
@@ -34,17 +31,17 @@ export default function Document() {
                 <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
                 <meta name="language" content="English"/>
                 <meta name="revisit-after" content="1 days"/>
-                <link rel="canonical" href="https://muhammadfiaz.com"/>
+                <link rel="canonical" href="https://github.com/BrianGelvez"/>
                 <meta name="license" content="MIT License"/>
                 <meta httpEquiv="content-language" content="en-us"/>
 
-                <link rel="preconnect" href="https://muhammadfiaz.com"/>
+                <link rel="preconnect" href="https://github.com/BrianGelvez"/>
 
-                <link rel="dns-prefetch" href="https://muhammadfiaz.com"/>
+                <link rel="dns-prefetch" href="https://github.com/BrianGelvez"/>
 
-                <meta name="author" content="Muhammad Fiaz"/>
+                <meta name="author" content="Brian Gelvez"/>
 
-                <link rel="alternate" hrefLang="en" href="https://muhammadfiaz.com"/>
+                <link rel="alternate" hrefLang="en" href="https://github.com/BrianGelvez"/>
 
                 <meta name="robots" content="index, follow"/>
                 <meta name="googlebot" content="index, follow"/>
@@ -63,32 +60,29 @@ export default function Document() {
                 <meta name="theme-color" content="#ffffff"/>
                 <link rel="manifest" href="/manifest.json"/>
 
-
-                <meta property="og:title" content="Muhammad Fiaz" key="title"/>
+                <meta property="og:title" content="Brian Gelvez" key="title"/>
                 {/* <meta property="og:description"
-                      content="Muhammad Fiaz - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey."/> */}
+                      content="Brian Gelvez - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey."/> */}
                 <meta property="og:image" content="https://avatars.githubusercontent.com/u/75434191?v=4"/>
                 <meta property="og:image:secure_url" content="https://avatars.githubusercontent.com/u/75434191?v=4"/>
                 <meta property="og:image:type" content="image/jpeg"/>
-                <meta property="og:image:alt" content="Muhammad Fiaz"/>
+                <meta property="og:image:alt" content="Brian Gelvez"/>
                 <meta property="og:image:width" content="300"/>
                 <meta property="og:image:height" content="300"/>
-                <meta property="og:url" content="https://muhammadfiaz.com"/>
+                <meta property="og:url" content="https://github.com/BrianGelvez"/>
                 <meta property="og:type" content="website"/>
-                <meta property="og:profile" content="https://github.com/muhammad-fiaz"/>
-                <meta property="og:site_name" content="Muhammad Fiaz"/>
+                <meta property="og:profile" content="https://github.com/BrianGelvez"/>
+                <meta property="og:site_name" content="Brian Gelvez"/>
                 <meta property="og:locale" content="en_US"/>
 
-
                 <meta name="twitter:card" content="summary"/>
-                <meta name="twitter:site" content="https://twitter.com/muhammadfiaz_"/>
-                <meta name="twitter:title" content="Muhammad Fiaz"/>
+                <meta name="twitter:site" content="https://twitter.com/"/>
+                <meta name="twitter:title" content="Brian Gelvez"/>
                 {/* <meta name="twitter:description"
-                      content="Muhammad Fiaz - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey."/> */}
+                      content="Brian Gelvez - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey."/> */}
                 <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/75434191?v=4"/>
-                <meta name="twitter:creator" content="https://twitter.com/muhammadfiaz_"/>
-                <meta name="twitter:domain" content="https://muhammadfiaz.com"/>
-
+                <meta name="twitter:creator" content="https://twitter.com/"/>
+                <meta name="twitter:domain" content="https://github.com/BrianGelvez"/>
 
                 <link rel='apple-touch-startup-image' href='/img/logo_rounded.png' sizes='2048x2732'/>
                 <link rel='apple-touch-startup-image' href='/img/logo_rounded.png' sizes='1668x2224'/>
@@ -100,199 +94,123 @@ export default function Document() {
 
                 {/*These are the Keywords that will Boost your SEO in Ranking, so Make Sure to include and Update it up to your preference or don't mind this! 😴*/}
                 <meta name="keywords" content="
-    Muhammad Fiaz, Full Stack Engineer, Full Stack Developer, DevOps Engineer, Software Engineer,
+    Brian Gelvez, Full Stack Engineer, Full Stack Developer, DevOps Engineer, Software Engineer,
     Programmer, Software Developer, Portfolio Website, Web Developer, Coding, Full Stack Development,
     Technology Enthusiast, Software Development, Computer Science, Programming Projects,
     Frontend Developer, Backend Developer, Software Development Portfolio, Student,
-    Full Stack Web Developer, Muhammad Fiaz Portfolio, Coding Projects, Tech Portfolio,
-    Web Development, DevOps Professional, Muhammad Fiaz Projects, Software Engineer Portfolio,
+    Full Stack Web Developer, Brian Gelvez Portfolio, Coding Projects, Tech Portfolio,
+    Web Development, DevOps Professional, Brian Gelvez Projects, Software Engineer Portfolio,
     IT Professional, Technology Projects, Software Development Engineer, Computer Programmer,
     Code Portfolio, Technology Student, Software Architect, Cloud Computing,
     DevOps Specialist, Software Engineering Projects, Coding Portfolio,
-    Full Stack Engineer Portfolio, Muhammad Fiaz Web Developer,
+    Full Stack Engineer Portfolio, Brian Gelvez Web Developer,
     Software Development Student, Coding Enthusiast, DevOps Portfolio, Programming Portfolio,
-    Muhammad Fiaz DevOps, IT Portfolio, Web Developer Portfolio, Muhammad Fiaz Developer,
-    Full Stack Engineer Muhammad Fiaz, Muhammad Fiaz Coding, Muhammad Fiaz IT,
-    Muhammad Fiaz Full Stack Developer, Muhammad Fiaz Software Engineer, Muhammad Fiaz DevOps Engineer,
-    Muhammad Fiaz Programming, Muhammad Fiaz Software Development, Muhammad Fiaz Coding Projects,
-    Muhammad Fiaz Tech Portfolio, Muhammad Fiaz IT Portfolio, Muhammad Fiaz Software Engineer Portfolio,
-    Muhammad Fiaz Web Developer Portfolio, Muhammad Fiaz DevOps Portfolio, Muhammad Fiaz Full Stack Engineer,
-    Muhammad Fiaz Full Stack Developer Portfolio, Muhammad Fiaz Coding Portfolio, Muhammad Fiaz Programming Portfolio,
-    Muhammad Fiaz Software Development Portfolio, Muhammad Fiaz Technology Projects,
-    Muhammad Fiaz Computer Science, Muhammad Fiaz Cloud Computing, Muhammad Fiaz IT Professional,
-    Muhammad Fiaz Technology Enthusiast, Muhammad Fiaz Computer Programmer, Muhammad Fiaz Code Portfolio,
-    Muhammad Fiaz Technology Student, Muhammad Fiaz Software Architect,fiaz,fiaz portfolio,fiaz devops,fiaz devops engineer,
-    fiaz devops portfolio,fiaz devops projects,fiaz devops specialist,fiaz devops professional,fiaz devops engineer portfolio,
-    fiaz devops engineer projects,fiaz devops engineer specialist,fiaz devops engineer professional,fiaz devops engineer coding,
-    fiaz devops engineer coding projects,fiaz devops engineer coding portfolio,fiaz devops engineer coding specialist,
+    Brian Gelvez DevOps, IT Portfolio, Web Developer Portfolio, Brian Gelvez Developer,
+    Full Stack Engineer Brian Gelvez, Brian Gelvez Coding, Brian Gelvez IT,
+    Brian Gelvez Full Stack Developer, Brian Gelvez Software Engineer, Brian Gelvez DevOps Engineer,
+    Brian Gelvez Programming, Brian Gelvez Software Development, Brian Gelvez Coding Projects,
+    Brian Gelvez Tech Portfolio, Brian Gelvez IT Portfolio, Brian Gelvez Software Engineer Portfolio,
+    Brian Gelvez Web Developer Portfolio, Brian Gelvez DevOps Portfolio, Brian Gelvez Full Stack Engineer,
+    Brian Gelvez Full Stack Developer Portfolio, Brian Gelvez Coding Portfolio, Brian Gelvez Programming Portfolio,
+    Brian Gelvez Software Development Portfolio, Brian Gelvez Technology Projects,
+    Brian Gelvez Computer Science, Brian Gelvez Cloud Computing, Brian Gelvez IT Professional,
+    Brian Gelvez Technology Enthusiast, Brian Gelvez Computer Programmer, Brian Gelvez Code Portfolio,
+    Brian Gelvez Technology Student, Brian Gelvez Software Architect,
     Open Source Contributor,open source,open source projects,open source portfolio,open source contributions,
     open source contributions portfolio,open source contributions projects,open source contributions coding,
     open source contributions coding projects,open source contributions coding portfolio,open source contributions coding specialist,
     open source contributions coding professional,open source contributions coding engineer,open source contributions coding developer,
     open source contributions coding student,open source contributions coding enthusiast,open source contributions coding architect,
     open source contributions coding projects portfolio,open source contributions coding projects specialist,
-
 "/>
                 {/*use your own ads sense code here*/}
-		    <meta name="google-adsense-account" content="ca-pub-2040560600290490"/>
-		     <Script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2040560600290490`}
-          strategy="lazyOnload"
-          crossOrigin="anonymous"
-        />
-         
+                <meta name="google-adsense-account" content="ca-pub-2040560600290490"/>
+                <Script
+                    async
+                    src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2040560600290490`}
+                    strategy="lazyOnload"
+                    crossOrigin="anonymous"
+                />
+
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{
                         __html: `{
           "@context": "https://schema.org",
           "@type": "Person",
-          "name": "Muhammad Fiaz",
-          "url": "https://muhammadfiaz.com",
+          "name": "Brian Gelvez",
+          "url": "https://github.com/BrianGelvez",
           "sameAs": [
-            "https://github.com/muhammad-fiaz",
-            "https://www.linkedin.com/in/muhammad-fiaz-",
-            "https://medium.com/@muhammad-fiaz",
-            "https://twitter.com/muhammadfiaz_",
-            "https://dev.to/muhammadfiaz"
-          ]
-        }`
+            "https://github.com/BrianGelvez",
+            "https://www.linkedin.com/in/briangelvez97/"
+          ],
+          "jobTitle": "Full Stack Developer",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Brian Gelvez Portfolio"
+          }
+        }`,
                     }}
                 />
-
-
-                {/*Edit this to your according FAQ */}
-                <script type="application/ld+json" dangerouslySetInnerHTML={{
-                    __html: `
-          {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "Have you worked on any projects?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, in addition to my personal projects and hobbies, I have worked on several projects, both individually and in teams. These projects have allowed me to apply theoretical knowledge to real-world scenarios, honing my practical skills in software development, web technologies, and computer networks."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can we recruit you?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, I am currently looking for jobs and I have also done several open-source projects as well."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Who is Muhammad Fiaz?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Muhammad Fiaz is a Full Stack Developer specializing in Cloud, DevOps, ML/AI, and Design. He is passionate about programming, innovation, and shaping the future. With expertise in various technologies and a strong background in software development, Muhammad Fiaz strives to create innovative solutions and contribute to the advancement of technology. His skill set includes proficiency in cloud computing, DevOps practices, machine learning/artificial intelligence, and design principles. Muhammad Fiaz is dedicated to staying up-to-date with the latest industry trends and leveraging his knowledge to drive impactful and transformative projects."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Where is Muhammad Fiaz from?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Muhammad Fiaz is from Madurai, Tamil Nadu, India."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What does Muhammad Fiaz do?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Muhammad Fiaz leverages Cloud, DevOps, ML/AI, Design, and web/mobile apps to benefit people with optimized operations and user-friendly experiences."
-                }
-              }
-            ]
-          }
-        `,
-                }}/>
-
-                {/*Edit this to your according to your website*/}
-                <script type="application/ld+json" dangerouslySetInnerHTML={{
-                    __html: `
-          {
-            "@context": "https://schema.org/",
-            "@type": "BreadcrumbList",
-            "itemListElement": [{
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://muhammadfiaz.com/"
-            },{
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Docs",
-              "item": "https://muhammadfiaz.com/docs"
-            },{
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Articles",
-              "item": "https://muhammadfiaz.com/articles"
-            },{
-              "@type": "ListItem",
-              "position": 4,
-              "name": "Projects",
-              "item": "https://muhammadfiaz.com/projects"
-            },{
-              "@type": "ListItem",
-              "position": 5,
-              "name": "Sign In",
-              "item": "https://muhammadfiaz.com/signin"
-            }]
-          }
-        `
-                }}/>
-
-                {/*Edit this to your according to your website*/}
-                <script type="application/ld+json" dangerouslySetInnerHTML={{
-                    __html: `
-          {
-            "@context": "https://schema.org",
-            "@type": "ResearchProject",
-            "name": "NeuroLink",
-            "description": "NeuroLink is a Python package that aims to provide various AI capabilities, including a chatbot, image processing, audio processing, Django support, and more. It utilizes TensorFlow and other related technologies for natural language processing and AI tasks.",
-            "alternateName": "neurolink",
-            "url": "https://github.com/muhammad-fiaz/neurolink",
-            "logo": "https://private-user-images.githubusercontent.com/75434191/242214243-82fbf702-43e2-46e6-8e01-11758fa26310.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTQ4NTE2ODksIm5iZiI6MTY5NDg1MTM4OSwicGF0aCI6Ii83NTQzNDE5MS8yNDIyMTQyNDMtODJmYmY3MDItNDNlMi00NmU2LThlMDEtMTE3NThmYTI2MzEwLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA5MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwOTE2VDA4MDMwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ3NjJmNzA5MGU5NWY4NTUxZTcxYmVmNzNlZTYzOTViN2FjNzE1YTM2MjM1OTNlOGIxNzk0ODE1NDczMDMzNGEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ay5bRLRoojQ33ZJLFnvjyq6Dq4qZfDY7quvv4WmgRLI",
-             "sameAs": [
-            "https://www.linkedin.com/in/muhammad-fiaz-/"
-        ]          }
-        `
-                }}/>
-                {/*theme*/}
-                <Script id="theme.util.jsx" strategy="beforeInteractive">
-                    {`
-				let themeLocalStorage = localStorage.getItem('theme')
-				let themeSystem       = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
-				document.querySelector(':root').dataset.theme = themeLocalStorage ?? themeSystem
-				`}
-                </Script>
-
-                {/* Google Analytics */}
-                <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-SDJ0K1Y70X"/>
-                <Script
-                    id='google-analytics'
-                    strategy="afterInteractive"
+                <script
+                    type="application/ld+json"
                     dangerouslySetInnerHTML={{
-                        __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-SDJ0K1Y70X', {
-            page_path: window.location.pathname,
-          });
-        `,
+                        __html: `{
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "url": "https://github.com/BrianGelvez",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://github.com/BrianGelvez{search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }`,
                     }}
                 />
-            </Head>
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{
+                        __html: `{
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Who is Brian Gelvez?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Brian Gelvez is a dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What technologies does Brian Gelvez work with?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Brian Gelvez works with a range of technologies including full-stack development, cloud computing, DevOps, AI/ML, and design."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Where can I find Brian Gelvez's portfolio?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Brian Gelvez's portfolio can be found at https://portafolios3-0.vercel.app/"
+              }
+            }
+          ]
+        }`,
+                    }}
+                />
+                <Script async src="https://www.googletagmanager.com/gtag/js?id=G-6G1F0H30J4"/>
+                <Script id="google-analytics" strategy="afterInteractive">
+                    {`window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
 
+              gtag('config', 'G-6G1F0H30J4');`}
+                </Script>
+            </Head>
             <body>
             <Main/>
             <NextScript/>

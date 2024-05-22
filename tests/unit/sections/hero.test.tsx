@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023 [Muhammad Fiaz](https://github.com/muhammad-fiaz/)
+ * Copyright (c) 2023 [Brian Gelvez](https://github.com/Brian Gelvez/)
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -29,7 +29,7 @@ describe('Hero section parts', () => {
 		render(<Hero />)
 		
 		const heading = screen.getByRole('heading', {
-			name: /Muhammad Fiaz\./i,
+			name: /Brian Gelvez\./i,
 		})
 		
 		expect(heading).toBeInTheDocument()

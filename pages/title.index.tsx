@@ -10,9 +10,9 @@ export default function TitleIndex() {
             <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
             <title>Web Brian Gelvez 👨‍💻</title>
 
-            <meta name="application-name" content="Muhammad Fiaz" />
-            <meta name="description" content="Muhammad Fiaz - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey." />
-            <meta name="title" content="Muhammad Fiaz"/>
+            <meta name="application-name" content="Brian Gelvez" />
+            <meta name="description" content="Brian Gelvez - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey." />
+            <meta name="title" content="Brian Gelvez"/>
 
           
 
