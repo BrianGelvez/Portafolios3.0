@@ -11,7 +11,7 @@ export default function TitleProjects() {
             <meta name="description" content="Explore a collection of my Open Source projects by Brian Gelvez, showcasing a range of technology and development endeavors." />
 
             {/*These are the Keywords that will Boost your SEO in Ranking, so Make Sure to include and Update it up to your preference or don't mind this! 😴*/}
-            <meta name="keywords" content="Brian Gelvez,Brian Gelvez Projects,Projects,fiaz, Full Stack Engineer, Developer, Software, Web Development, Coding, Portfolio" />
+            <meta name="keywords" content="Brian Gelvez,Brian Gelvez Projects,Projects, Full Stack Engineer, Developer, Software, Web Development, Coding, Portfolio" />
             <title>Proyectos Brian Gelvez</title>
         </Head>
     );
