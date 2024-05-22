@@ -8,17 +8,18 @@ import SectionTitle from "../../blocks/section.title";
 import Section from "../../structure/section";
 import Container from "../../structure/container";
 
-const contributionYears = [2023, 2022, 2021, 2020];
+const contributionYears = [2024, 2023, 2022];
+
 export default function GithubGraphSection() {
-    const [year, setYear] = useState(2023);
+    const [year, setYear] = useState(2024);
 
     return (
         <Section classProp={`${styles.section} borderBottom`}>
             <Container spacing={['verticalXXXLrg']}>
                 <SectionTitle
-                    title="Github Contributions"
-                    preTitle="My Way"
-                    subTitle={`My GitHub Contributions show my ongoing open-source involvement since ${year}, a fulfilling hobby I engage in during my free time.`}
+                    title="Contribuciones a Github"
+                    preTitle="Mi Manera"
+                    subTitle={`Mis contribuciones en GitHub muestran mi continua participación en el código.`}
                 />
                 <section className={`${styles.area}`}
             >
@@ -43,7 +44,7 @@ export default function GithubGraphSection() {
                             >
                                 <GitHubCalendar
                                     key={`${year}-calendar`}
-                                    username="muhammad-fiaz"
+                                    username="briangelvez"
                                     year={year}
                                     colorScheme="dark"
                                 />

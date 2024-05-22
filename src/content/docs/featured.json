@@ -1,19 +1,19 @@
 [
   {
-    "title": "muhammadfiaz.com",
-    "pubDate": "2023-07-05",
-    "link": "https://github.com/muhammad-fiaz/portfolio#readme",
-    "author": "Muhammad Fiaz",
+    "title": "Mi portafolios 3.0",
+    "pubDate": "2024-05-21",
+    "link": "https://briangelvez-portafolios3.0.vercel.app/",
+    "author": "Brian Gelvez",
     "thumbnail": "/img/jobs.png",
     "categories": ["Portfolio", "Website", "Blog","personal"]
   },
   {
-    "title": "logly",
-    "pubDate": "2023-12-29",
-    "link": "https://github.com/muhammad-fiaz/logly#readme",
-    "author": "Muhammad Fiaz",
-    "thumbnail": "/img/logly.png",
-    "categories": ["Python","logging"]
+    "title": "Mi portafolios 2.0",
+    "pubDate": "2023-06-15",
+    "link": "https://mi-portafolios-2-0.vercel.app/",
+    "author": "Brian Gelvez",
+    "thumbnail": "/img/portafolios2.0.png",
+    "categories": ["Portfolio", "Website", "Blog","personal"]
   }
 
 ]

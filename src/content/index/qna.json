@@ -1,31 +1,25 @@
 [
   {
-    "question": "Where are you currently studying?",
-    "answer": "I am currently studying computer science at the Velammal College of Engineering and Technology.",
+    "question": "¿Dónde estudia actualmente?",
+    "answer": "Actualmente, estoy enfocado en estudiar las tecnologías que me interesan o deseo utilizar. Soy muy curioso y cuando algo llama mi atención, tiendo a profundizar en el área.",
     "isOpen": false
 
   },
   {
-    "question": "Have you worked on any projects?",
-    "answer": "Yes, in addition to my personal projects and hobbies, I have worked on several projects, both individually and in teams. These projects have allowed me to apply theoretical knowledge to real-world scenarios, honing my practical skills in software development, web technologies, and computer networks.",
+    "question": "¿Ha trabajado en algún proyecto?",
+    "answer": "He participado activamente en actividades de código abierto y extracurriculares. Mi experiencia más significativa en proyectos proviene de mi primer empleo.",
     "isOpen": false
 
   },
   {
-    "question": "What extracurricular activities have you participated in?",
-    "answer": "I have actively participated in extracurricular activities and technical events on campus, which have provided me with opportunities to expand my knowledge, network with fellow students, and enhance my leadership and communication skills.",
+    "question": "¿Podemos reclutarte?",
+    "answer": "Sí, actualmente estoy buscando trabajo y estoy abierto a nuevas oportunidades y nuevos desafíos.",
     "isOpen": false
 
   },
   {
-    "question": "Can we recruit you?",
-    "answer": "Yes, I am currently looking for jobs and I have also done several projects as a hobby.",
-    "isOpen": false
-
-  },
-  {
-    "question": "How do you stay updated with the latest developments in your field?",
-    "answer": "I believe in continuous learning and staying updated with the latest trends. I regularly read tech blogs, follow industry experts on social media, and participate in online courses and workshops to enhance my knowledge and skills. I am also actively involved in developing new projects that allow me to apply and expand my expertise.",
+    "question": "¿Cómo se mantiene al día de los últimos avances en su campo?",
+    "answer": "Creo en el aprendizaje continuo y en estar al día de las últimas tendencias. Leo regularmente blogs de tecnología y sigo a expertos del sector en las redes sociales",
     "isOpen": false
 
   }

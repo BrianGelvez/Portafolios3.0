@@ -1,20 +1,16 @@
 [
 	{
 		"url": "/",
-		"title": "Home"
+		"title": "Inicio"
 	},
 	{
 		"url": "/docs",
-		"title": "Docs"
+		"title": "Destacado"
 	},
-	{
-		"url": "/articles",
-		"title": "Articles"
-	},
+
 	{
 		"url": "/projects",
-		"title": "Projects"
+		"title": "Projectos"
 	}
-
 
 ]

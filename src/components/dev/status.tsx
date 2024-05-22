@@ -40,7 +40,7 @@ const DevelopmentNotice: React.FC = () => {
     const handleHidePopup = () => {
         localStorage.setItem('developmentNotice', 'true');
         setIsVerified(true);
-        setWelMsg("Make sure to Follow me on Github for more! ❤️");
+        setWelMsg("Para más información, sígueme en LinkedIn ❤️");
         setHideContent(true); // Hide existing content
         setShowNewPlayer(true); // Show new Player
         const timeoutDuration = 5000;
@@ -103,7 +103,7 @@ const DevelopmentNotice: React.FC = () => {
                         <Player
                             autoplay
                             loop
-                            src="/lottie/github.json"
+                            src="/lottie/linkedin.json"
                             style={{ marginBottom: '20px', width: '300px', height: '300px' }}
                         />
                     ) : (
@@ -117,11 +117,11 @@ const DevelopmentNotice: React.FC = () => {
                     {hideContent ? null : (
                         <>
                             <p style={{ fontSize: '18px', marginBottom: '20px' }}>
-                                Thank you for visiting my portfolio!👻
+                            Gracias por visitar mi portafolio.👻
                             </p>
                             <p style={{ fontSize: '14px', marginBottom: '30px' }}>
-                                If you encounter any issues or bugs, please report them{' '}
-                                <a href="https://github.com/muhammad-fiaz/portfolio/issues/new">@muhammad-fiaz</a>
+                            Si encuentra algún problema o error, notifíquelo a{' '}
+                                <a href="mailto:briannn97@gmail.com">briannn97@gmail.com</a>
                             </p>
                             {!isVerified ? (
                                 <>
@@ -132,23 +132,31 @@ const DevelopmentNotice: React.FC = () => {
                                         />
                                     </div>
                                     <p style={{ fontSize: '12px', color: 'red', marginBottom: '10px' }}>
-                                        Please complete the verification.
+                                    Por favor, complete la verificación.
                                     </p>
                                 </>
                             ) : null}
                         </>
                     )}
                     {WelMsg && (
-                        <div>
-                            <h2 style={{ fontSize: '32px', marginBottom: '20px'}}>
-                                <span dangerouslySetInnerHTML={{ __html: WelMsg.replace('Github', '<a href="https://github.com/muhammad-fiaz" target="_blank" rel="noopener noreferrer" style="color: #3498db;">Github</a>') }} />
-                            </h2>
-                            {timerRemaining !== null && (
-                                <p style={{ fontSize: '16px', marginBottom: '10px', color: 'linear-gradient(to right, #3498db, #2ecc71)' }}>
-                                    Closes in {timerRemaining} seconds.
-                                </p>
-                            )}
-                        </div>
+                      <div>
+                      <h2 style={{ fontSize: '32px', marginBottom: '20px' }}>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: WelMsg.replace(
+                              'LinkedIn',
+                              '<a href="https://www.linkedin.com/in/briangelvez97" target="_blank" rel="noopener noreferrer" style="color: #3498db;">LinkedIn</a>'
+                            ),
+                          }}
+                        />
+                        <h5>Brian Gelvez 😊</h5>
+                      </h2>
+                      {timerRemaining !== null && (
+                        <p style={{ fontSize: '16px', marginBottom: '10px', color: 'linear-gradient(to right, #3498db, #2ecc71)' }}>
+                          Se cierra en: {timerRemaining} segundos.
+                        </p>
+                      )}
+                    </div>
                     )}
 
 
@@ -167,7 +175,7 @@ const DevelopmentNotice: React.FC = () => {
                                 marginTop: '10px',
                             }}
                         >
-                            I understand
+                              Comprendo
                         </button>
                     )}
                 </div>
@@ -184,7 +192,7 @@ const DevelopmentNotice: React.FC = () => {
                             padding: '10px',
                         }}
                     >
-                        <p>
+                        {/* <p>
                             Current Version:{' '}
                             {versionDetails ? (
                                 <a
@@ -211,7 +219,7 @@ const DevelopmentNotice: React.FC = () => {
                                     ) : 'Checking for updates...'}
                                 </>
                             )}
-                        </p>
+                        </p> */}
                     </div>
                 )}
             </div>

@@ -1,42 +1,41 @@
 {
 	"Websites": [
 		{
-			"person": "muhammadfiaz.com",
-			"link": "https://muhammadfiaz.com/",
-			"note": ""
+			"person": "Brian Gelvez 3.0",
+			"link": "https://briangelvez-portafolios3.0.vercel.app/",
+			"note": "Portafolios"
 		},
 		{
-			"person": "articles.muhammadfiaz.com",
-			"link": "https://articles.muhammadfiaz.com/",
-			"note": ""
+			"person": "Brian Gelvez 2.0",
+			"link": "mi-portafolios-2-0.vercel.app",
+			"note": "Portafolios"
+		},
+		{
+			"person": "Brian Gelvez 1.0",
+			"link": "https://mi-portafolios.vercel.app/",
+			"note": "Portafolios"
 		}
-
 	],
 
 	"links": [
 		{
-			"person": "Home",
-			"link": "https://muhammadfiaz.com/",
+			"person": "Inicio",
+			"link": "https://briangelvez-portafolios3.0.vercel.app/",
 			"note": ""
 		},
 		{ 
-			"person": "Documentations",
-			"link": "https://muhammadfiaz.com/docs",
+			"person": "Destacado",
+			"link": "https://briangelvez-portafolios3.0.vercel.app/docs",
 			"note": ""
-		},	{
-			"person": "Articles",
-			"link": "https://muhammadfiaz.com/articles",
-			"note": ""
-		},
-
+		},	
 		{
-			"person": "Projects",
-			"link": "https://muhammadfiaz.com/projects",
+			"person": "Proyetos",
+			"link": "https://briangelvez-portafolios3.0.vercel.app/projects",
 			"note": ""
 		},
 		{
-			"person": "Contact",
-			"link": "mailto:contact@muhammadfiaz.com",
+			"person": "Contacto",
+			"link": "mailto:briannn97@gmail.com",
 			"note": ""
 		}
 
@@ -45,20 +44,24 @@
 
 	"social": [
 		{
-			"url": "https://medium.com/@muhammad-fiaz",
-			"icon": "medium"
-		},
-		{
-			"url": "https://dev.to/muhammadfiaz",
-			"icon": "dev"
-		},
-		{
-			"url": "https://www.linkedin.com/in/muhammad-fiaz-/",
+			"url": "https://www.linkedin.com/in/briangelvez97/",
 			"icon": "linkedin"
 		},
 		{
-			"url": "https://github.com/muhammad-fiaz",
+			"url": "https://github.com/BrianGelvez",
 			"icon": "github"
+		},
+		{
+			"url": "https://www.facebook.com/briiaan.leeonel/",
+			"icon": "facebook"
+		},
+		{
+			"url": "https://www.instagram.com/brian.gelvez/",
+			"icon": "instagram"
+		},
+		{
+			"url": "https://wa.me/3521539991",
+			"icon": "whatsapp"
 		}
 	]
 }

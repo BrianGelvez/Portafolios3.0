@@ -19,58 +19,58 @@ export default function Home() {
 		<Section classProp={about.section}>
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
-					title="About Me"
+					title="Sobre mí"
 					preTitle="Synopsis"
-					subTitle="From an early age, my passion for creating new things has been a driving force. Immersed in the world of design and coding, I honed my skills and explored innovative solutions. This love for creation has shaped my career, fueling my desire to bring impactful and visually stunning projects to life. With meticulous attention to detail and a keen eye for aesthetics, I strive to craft exceptional and memorable experiences."
+					subTitle="Desde temprana edad tengo fascinación por los ordenadores, tuve mi primer ordenador a la edad de 12 años y desde ese momento se encendió una pasión para siempre. Durante mi vida tuve trabajos y profesiones varias. Fui empleado de fabrica metaturgica, vendedor, militar y por ultimo desarrollador 😊. En el año 2020 pase de ser soldado a ser aspirante de la escuela de Subficiales del Ejercito Argentino ¡Iba a realizar la carrera militar!. Lamentablemente duramos poco cursando fisicamente que empezo la pandemia mundial por Covid-19. La pandemia hizo que pase mucho tiempo en mi casa cursando de forma online. Eso hizo que me compre una notebook y vuelva va revivir mi pasion por los ordenadores, cambiando asi el rumbo de mi vida. Este giro inesperado marcó un cambio fundamental en mi trayectoria, llevándome por un nuevo camino lleno de oportunidades y aprendizajes."
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<Image src="https://avatars.githubusercontent.com/u/75434191?v=4" width={600} height={800} alt="Muhammad Fiaz"   loading="eager" />
+						<Image src="/brianmilitar.jpg" width={600} height={800} alt="Muhammad Fiaz"   loading="eager" />
 					</div>
 					<div className={about.copy}>
 						<CopyBlock
-							title="Softskills"
+							title="Habilidades"
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={[ 'fas', 'user' ]}
-							copy="With a solid background in design and technical expertise, I am a skilled developer who excels in delivering high-quality solutions. Alongside my proficiency in coding, I possess strong leadership, time management, and multitasking skills, which I have honed through managing complex development projects. As a dedicated individual, I constantly seek opportunities to expand my knowledge and stay updated with the latest industry trends. With a passion for creating innovative and efficient applications, I am committed to bringing value and success to every development endeavor."
+							copy="Ademas de mi experiencia en el desarrollo de software Full Stack, me enorgullece poseer una serie de habilidades interpersonales y blandas que considero esenciales para mi papel como desarrollador Jr. Mis habilidades técnicas están respaldadas por una sólida base en varias tecnologias JavaScript. Sin embargo, tambien valoro la importancia de las habilidades blandas en cualquier entorno de desarrollo de software. Soy un comunicador efectivo, capaz de comunicar claramente ideas técnicas tanto a colegas como a clientes. Mi capacidad para trabajar bien en equipo y mi disposición para aprender y adaptarme rápidamente a nuevas tecnologías me permiten integrarme fácilmente en cualquier entorno de trabajo. Además, mi pasión por la resolución de problemas y mi atención al detalle garantizan que pueda abordar los desafíos del desarrollo de software con determinación y precisión."
 						/>
 						<CopyBlock
-							title="Development and Projects"
+							title="Desarrollo y proyectos"
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={['fas', 'code']}
-							copy="Development and project execution are my passion. I thrive on the challenges of bringing ideas to life through coding and turning concepts into functional, robust solutions. With meticulous planning, efficient workflows, and a keen eye for detail, I ensure successful project delivery, meeting objectives and exceeding expectations."
+							copy="El desarrollo y la ejecución de proyectos son mi pasión. Me encantan los retos de dar vida a las ideas a través de la codificación y convertir los conceptos en soluciones funcionales y robustas. Con una planificación meticulosa, flujos de trabajo eficientes y un buen ojo para los detalles,me gusta garantizar la entrega exitosa de los proyectos, cumpliendo los objetivos y superando las expectativas."
 						/>
 					</div>
 				</section>
 				<section className={about.content}>
 					<div className={about.copy}>
-						<CopyBlock
+						{/* <CopyBlock
 							title="Security and Privacy"
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={['fas', 'shield-alt']}
 							copy="Security and privacy are paramount in my approach to development. I prioritize the protection of sensitive data and implement robust security measures. By adhering to industry best practices and staying updated on emerging threats, I ensure that users' information is safeguarded. Trust and confidentiality are the cornerstones of my work, fostering secure and private experiences for all."
-						/>
+						/> */}
 						<CopyBlock
-							title="Constant Learning and Improvements"
+							title="Aprendizaje y mejoras constantes"
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={['fas', 'book']}
-							copy="I have an insatiable thirst for knowledge and a passion for continuous learning and development. Keeping up with the latest industry trends and emerging technologies allows me to stay ahead of the curve. By actively seeking new challenges and expanding my skill set, I constantly push the boundaries of my abilities, ensuring that I deliver cutting-edge solutions and provide valuable insights to clients."
+							copy="Tengo una sed insaciable de conocimientos y una pasión por el aprendizaje y el desarrollo continuos. Estar al día de las últimas tendencias del sector y de las tecnologías emergentes me permite mantenerme a la vanguardia. Mediante la búsqueda activa de nuevos retos y la ampliación de mi conjunto de habilidades, supero constantemente los límites de mis capacidades, garantizando que ofrezco soluciones de vanguardia y proporciono información valiosa a los clientes."
 						/>
 
 
 
 						<BadgesBlock
-							title="Research and planning"
+							title="Investigación y planificación"
 							containerClass={about.container}
 							list={methods}
 							fullContainer="fullContainer"
 							block="methods"
 							icon="fingerprint"
-							copy="One of the most exhilarating aspects of my creative process is conducting in-depth research and meticulous planning for development projects. From Design Systems to Brand Strategy, I relish the opportunity to explore various touchpoints of user experience. Constantly seeking to expand my knowledge and skills, I immerse myself in research to stay ahead of industry trends. By strategically planning and executing projects, I aim to create exceptional digital experiences that exceed expectations and deliver measurable results."
+							copy="Uno de los aspectos más estimulantes de mi proceso creativo es llevar a cabo una investigación en profundidad y una planificación meticulosa de los proyectos de desarrollo. Desde los sistemas de diseño hasta la estrategia de marca, disfruto con la oportunidad de explorar diversos puntos de contacto de la experiencia del usuario. En mi constante búsqueda por ampliar mis conocimientos y habilidades, me sumerjo en la investigación para mantenerme a la vanguardia de las tendencias del sector. Mediante la planificación estratégica y la ejecución de proyectos, mi objetivo es crear experiencias digitales excepcionales que superen las expectativas y ofrezcan resultados cuantificables."
 							//invertedColor="invertedColor"
 							headerIcon={`${about.icon}`} invertedColor={undefined}						/>
 					</div>
@@ -80,9 +80,9 @@ export default function Home() {
 	)
 }
 const methods = [
-	{ key: 'machinelearning', name: 'Machine Learning', type: 'fad', icon: 'devicon' },
-	{ key: 'artificialintelligence', name: 'Artificial Intelligence', type: 'fad', icon: 'devicon' },
-	{ key: 'deeplearning', name: 'Deep Learning', type: 'fad', icon: 'devicon' },
-	{ key: 'neuralnetworks', name: 'Neural Networks', type: 'fad', icon: 'devicon' },
+	{ key: 'machinelearning', name: 'Aprendizaje Autodidacta', type: 'fad', icon: 'devicon' },
+	{ key: 'artificialintelligence', name: 'Inteligencia artificial', type: 'fad', icon: 'devicon' },
+	{ key: 'deeplearning', name: 'Aprendizaje profundo', type: 'fad', icon: 'devicon' },
+	{ key: 'neuralnetworks', name: 'Redes neuronales', type: 'fad', icon: 'devicon' },
 
 ];

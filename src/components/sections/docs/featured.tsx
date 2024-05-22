@@ -19,9 +19,9 @@ export default function Recent({ }) {
             {/* @ts-ignore */}
             <Container spacing={'verticalXXXXLrg'}>
                 <SectionTitle
-                    title="Featured Docs"
-                    preTitle="Documentation"
-                    subTitle="featured documentation of projects"
+                    title="Documentos destacados"
+                    preTitle="Destacado"
+                    subTitle="documentación destacada de los proyectos"
                 />
                 <section className={css.projects}>
                     {

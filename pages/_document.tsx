@@ -17,14 +17,14 @@ export default function Document() {
                 <meta charSet="utf-8"/>
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
                 {/* eslint-disable-next-line @next/next/no-title-in-document-head */}
-                <title>Muhammad Fiaz</title>
-                <meta name="description"
-                      content="Muhammad Fiaz - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey."/>
+                <title>Web Brian Gelvez 👨‍💻</title>
+                {/* <meta name="description"
+                      content="Muhammad Fiaz - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey."/> */}
 
                 {/*These are need for PWA*/}
                 <meta name="apple-mobile-web-app-capable" content="yes"/>
                 <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
-                <meta name="apple-mobile-web-app-title" content="Muhammad Fiaz"/>
+                <meta name="apple-mobile-web-app-title" content="Brian Gelvez"/>
                 <meta name="format-detection" content="telephone=no"/>
                 <meta name="mobile-web-app-capable" content="yes"/>
                 <meta name="msapplication-config" content="/favicon/browserconfig.xml"/>
@@ -65,8 +65,8 @@ export default function Document() {
 
 
                 <meta property="og:title" content="Muhammad Fiaz" key="title"/>
-                <meta property="og:description"
-                      content="Muhammad Fiaz - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey."/>
+                {/* <meta property="og:description"
+                      content="Muhammad Fiaz - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey."/> */}
                 <meta property="og:image" content="https://avatars.githubusercontent.com/u/75434191?v=4"/>
                 <meta property="og:image:secure_url" content="https://avatars.githubusercontent.com/u/75434191?v=4"/>
                 <meta property="og:image:type" content="image/jpeg"/>
@@ -83,8 +83,8 @@ export default function Document() {
                 <meta name="twitter:card" content="summary"/>
                 <meta name="twitter:site" content="https://twitter.com/muhammadfiaz_"/>
                 <meta name="twitter:title" content="Muhammad Fiaz"/>
-                <meta name="twitter:description"
-                      content="Muhammad Fiaz - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey."/>
+                {/* <meta name="twitter:description"
+                      content="Muhammad Fiaz - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey."/> */}
                 <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/75434191?v=4"/>
                 <meta name="twitter:creator" content="https://twitter.com/muhammadfiaz_"/>
                 <meta name="twitter:domain" content="https://muhammadfiaz.com"/>

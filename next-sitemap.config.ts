@@ -1,4 +1,4 @@
-const siteUrl = 'https://muhammadfiaz.com'; // Replace with your website's URL
+const siteUrl = 'https://briangelvez-portafolios3.0.vercel.app/'; // Replace with your website's URL
 
 module.exports = {
     siteUrl: siteUrl,

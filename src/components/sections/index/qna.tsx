@@ -14,11 +14,18 @@ interface QnAItem {
 
 const QnA: React.FC = () => {
     const [qnas, setQnas] = useState<QnAItem[]>(qna);
+    console.log(qnas);
+    
 
     const toggleAnswer = (index: number) => {
         setQnas((prevState) => {
-            const updatedQnas = [...prevState];
-            updatedQnas[index].isOpen = !updatedQnas[index].isOpen;
+            const updatedQnas = prevState.map((qna, i) => {
+                if (i === index) {
+                    return { ...qna, isOpen: !qna.isOpen }; // Actualiza solo el isOpen de la pregunta actual
+                } else {
+                    return qna; // Mantén las otras preguntas sin cambios
+                }
+            });
             return updatedQnas;
         });
     };
@@ -26,7 +33,7 @@ const QnA: React.FC = () => {
     return (
         <Section classProp={`${career.section} borderBottom`}>
             <Container spacing={['verticalXXXLrg']}>
-                <SectionTitle title="Q & A" preTitle="" subTitle="Get your Questions answered." />
+                <SectionTitle title="DUDAS Y PREGUNTAS" preTitle="" subTitle="Aquí encontrarás respuestas a las preguntas más comunes." />
 
                 <div className={career.area}>
                     {qnas.map((qna, index) => (
