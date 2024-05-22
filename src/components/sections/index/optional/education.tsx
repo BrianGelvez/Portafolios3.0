@@ -21,6 +21,30 @@ export default function Education() {
           <article className={career.company}>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
+                <h3>
+                  Educación autodidacta - Tutoriales | Videos | Documentación.
+                </h3>
+
+                <h5>Cordoba, Argentina | Enero 2021 - Actualidad</h5>
+              </span>
+              <p>
+                Soy un desarrollador autodidacta. Mi pasión por investigar y
+                estudiar me impulsa a profundizar en los temas que me interesan,
+                lo que me ha permitido adquirir conocimientos de forma continua
+                y autónoma.
+              </p>
+              <ul className="list-disc pl-8">
+                <li>Cursos en línea</li>
+                <li>Lectura constante</li>
+                <li>Participación comunitaria</li>
+                <li>Actualizado con últimas novedades</li>
+              </ul>
+            </div>
+            <div className={career.companyAlt}></div>
+          </article>
+          <article className={career.company}>
+            <div className={career.companyContent}>
+              <span className={career.companyHeader}>
                 <h3>Bootcamp Soy Henry.</h3>
                 <h5>Cordoba, Argentina | Enero 2023 - Junio 2023</h5>
               </span>
@@ -33,7 +57,10 @@ export default function Education() {
               <ul className="list-disc pl-8">
                 <li>Creación de API endpoints </li>
                 <li>Creación de componentes en React.js / Hooks / Redux</li>
-                <li>Implementación de pasarela de pago / impl. de authentication / carro de compras</li>
+                <li>
+                  Implementación de pasarela de pago / impl. de authentication /
+                  carro de compras
+                </li>
               </ul>
             </div>
             <div className={career.companyAlt}></div>

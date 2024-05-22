@@ -21,7 +21,7 @@ export default function Technical() {
       <Container spacing={["verticalXXXLrg"]}>
         <SectionTitle
           title="Programador Web "
-          preTitle="Hard Skills"
+          preTitle="HABILIDADES DURAS"
           subTitle="Como programador creativo, creo experiencias digitales intuitivas utilizando un conjunto de diversas herramientas en desarrollo web"
         />
         <section className={`${technical.content} ${technical.container}`}>
@@ -29,14 +29,14 @@ export default function Technical() {
             <CopyBlock
               title="Pesamiento Lógico"
               icon={["fas", "chart-network"]}
-              copy="Con una base solida en el desarrollo de software, aprovecho el pensamiento lógico para abordar cada proyecto. Busco constantemente soluciones innovadoras y me mantengo al día con las últimas tendencias del sector."
+              copy="Con una sólida base en desarrollo de software, enfoco cada proyecto en soluciones eficientes que mejoren la experiencia del usuario y optimicen el rendimiento. Me mantengo al día con las últimas tendencias para integrar nuevas técnicas y herramientas que permitan desarrollar soluciones más innovadoras y eficaces."
               iconClass={technical.icon}
               containerClass={technical.container}
             />
 
             <BadgesBlock
-              title="Software con los que me encanta trabajar"
-              copy="Como programador Full Stack autodidacta y apasionado por el desarrollo de proyectos, tengo una comprensión sólida de cómo se diseñan interfaces efectivas y atractivas. Disfruto trabajando con herramientas como VS Code, GitHub Copilot, Figma, etc. Me encanta enfocarme en el diseño y el desarrollo frontend para crear proyectos excepcionales."
+              title="Herramientas y Tecnologías Favoritas"
+              copy="Como programador Full Stack autodidacta y apasionado por el desarrollo de proyectos, tengo una comprensión sólida de cómo se diseñan interfaces efectivas y atractivas. Disfruto trabajando con herramientas como VS Code, TypeScript, GitHub Copilot, React, Tailwind CSS, Figma, Photoshop, entre otras. Me encanta enfocarme en el desarrollo frontend para crear proyectos excepcionales."
               list={software}
               block="software"
               fullContainer="fullContainer"
@@ -47,7 +47,7 @@ export default function Technical() {
             />
 
             <BadgesBlock
-              title="Tecnologías con las que me encanta construir"
+              title="Tecnologías con las que me encantaría construir"
               copy="Como apasionado de la resolución de problemas, disfruto creando soluciones innovadoras a través de la programación. Desde el desarrollo front-end hasta los sistemas back-end y las API, acepto los retos y me gusta ampliar los límites de lo posible. Estoy siempre dispuesto a aprender y trabajar con una amplia gama de tecnologías para enfrentar cualquier desafío que se presente."
               list={tech}
               block="tech"
@@ -77,14 +77,14 @@ export default function Technical() {
   /*Badge Block*/
 }
 const software = [
-  { key: "githubcodespaces", name: "github copilot", type: "devicon" },
-  { key: "figma", name: "Figma", type: "devicon" },
   { key: "vscode", name: "VSCode", type: "devicon" },
-  { key: "git", name: "Git(Hub)", type: "devicon" },
-  { key: "postman", name: "Postman", type: "devicon" },
-  { key: "tailwindcss", name: "Tailwindcss", type: "devicon" },
-  { key: "nextjs", name: "Next.js", type: "devicon" },
+  { key: "typescript", name: "TypeScript", type: "devicon" },
+  { key: "githubcodespaces", name: "github copilot", type: "devicon" },
   { key: "react", name: "React", type: "devicon" },
+  { key: "tailwindcss", name: "Tailwindcss", type: "devicon" },
+  { key: "figma", name: "Figma", type: "devicon" },
+  { key: "nextjs", name: "Next.js", type: "devicon" },
+  { key: "photoshop", name: "Photoshop", type: "devicon" },
 ];
 
 const tech = [

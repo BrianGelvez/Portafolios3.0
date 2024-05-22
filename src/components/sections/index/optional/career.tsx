@@ -19,7 +19,7 @@ export default function Career() {
         <SectionTitle
           title="Experiencia"
           preTitle="Carrera"
-          subTitle="Actualmente, trabajo en el campo del desarrollo de proyectos. Mi objetivo principal es mejorar mis habilidades y ampliar mis conocimientos para adquirir una valiosa experiencia en el desarrollo de proyectos complejos. Me dedico a mejorar continuamente y a mantenerme actualizado con los últimos avances de la industria."
+          subTitle="Actualmente, trabajo a tiempo completo en el campo del desarrollo de software. Mi objetivo principal es mejorar mis habilidades y ampliar mis conocimientos para adquirir una valiosa experiencia en el desarrollo de proyectos complejos. Me dedico a mejorar continuamente y a mantenerme actualizado con los últimos avances de la industria."
         />
         <section className={career.area}>
           <div className={career.position}>
