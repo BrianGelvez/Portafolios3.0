@@ -80,7 +80,7 @@ export default function Document() {
                 <meta name="twitter:title" content="Brian Gelvez"/>
                 {/* <meta name="twitter:description"
                       content="Brian Gelvez - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey."/> */}
-                <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/75434191?v=4"/>
+                <meta name="twitter:image" content="https://github.com/BrianGelvez/Portafolios3.0/blob/main/public/brianmilitar.jpg?raw=true"/>
                 <meta name="twitter:creator" content="https://twitter.com/"/>
                 <meta name="twitter:domain" content="https://github.com/BrianGelvez"/>
 
@@ -195,7 +195,7 @@ export default function Document() {
               "name": "Where can I find Brian Gelvez's portfolio?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Brian Gelvez's portfolio can be found at https://portafolios3-0.vercel.app/"
+                "text": "Brian Gelvez's portfolio can be found at https://portafolios-briangelvez.vercel.app/"
               }
             }
           ]
