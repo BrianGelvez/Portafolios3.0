@@ -14,7 +14,7 @@ export default function Document() {
                 <meta charSet="utf-8"/>
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
                 {/* eslint-disable-next-line @next/next/no-title-in-document-head */}
-                <title>Web Brian Gelvez 👨‍💻</title>
+                <title>Portafolios 3.0 👨‍💻</title>
                 {/* <meta name="description"
                       content="Brian Gelvez - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey."/> */}
 

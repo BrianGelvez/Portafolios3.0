@@ -20,17 +20,17 @@
 	"links": [
 		{
 			"person": "Inicio",
-			"link": "https://briangelvez-portafolios3.0.vercel.app/",
+			"link": "https://portafolios-briangelvez.vercel.app/",
 			"note": ""
 		},
 		{ 
 			"person": "Destacado",
-			"link": "https://briangelvez-portafolios3.0.vercel.app/docs",
+			"link": "https://portafolios-briangelvez.vercel.app//docs",
 			"note": ""
 		},	
 		{
 			"person": "Proyetos",
-			"link": "https://briangelvez-portafolios3.0.vercel.app/projects",
+			"link": "https://portafolios-briangelvez.vercel.app//projects",
 			"note": ""
 		},
 		{
