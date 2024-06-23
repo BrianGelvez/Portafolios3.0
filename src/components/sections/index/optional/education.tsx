@@ -15,14 +15,14 @@ export default function Education() {
         <SectionTitle
           title="Educación"
           preTitle="Formación"
-          subTitle="Actualmente, me desempeño como desarrollador activo en el entorno de desarrollo JavaScript. A nivel personal, estoy inmerso en el estudio de Python y trabajando en un proyecto utilizando Django Rest Framework."
+          subTitle="Actualmente, me desempeño como desarrollador activo en el entorno de desarrollo TypeScript. A nivel personal, estoy inmerso en el estudio de C#, aprendiendo su sintaxis y trabajando en un proyecto utilizando ASP.NET Core."
         />
         <section className={career.area}>
           <article className={career.company}>
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
                 <h3>
-                  Educación autodidacta - Tutoriales | Videos | Documentación.
+                  Educación autodidacta - Tutoriales | Videos | Udemy | Documentación.
                 </h3>
 
                 <h5>Cordoba, Argentina | Enero 2021 - Actualidad</h5>

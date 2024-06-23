@@ -7,7 +7,9 @@ import settings from "../../../src/content/_settings.json";
 const DevelopmentNotice: React.FC = () => {
   const [showPopup, setShowPopup] = useState<boolean>(false);
   const [hasShownConfetti, setHasShownConfetti] = useState<boolean>(false);
-  const [versionDetails, setVersionDetails] = useState<VersionDetails | null>(null);
+  const [versionDetails, setVersionDetails] = useState<VersionDetails | null>(
+    null
+  );
   const [autoupdatecheck, setAutoupdatecheck] = useState<boolean | null>(null);
   const [WelMsg, setWelMsg] = useState<string | null>(null);
   const [hideContent, setHideContent] = useState<boolean>(false);
@@ -102,11 +104,11 @@ const DevelopmentNotice: React.FC = () => {
           {hideContent ? null : (
             <>
               <p style={{ fontSize: "18px", marginBottom: "20px" }}>
-                Gracias por visitar mi portafolio.🫡
+                Gracias por visitar mi portafolios. 🩵
               </p>
               <p style={{ fontSize: "14px", marginBottom: "30px" }}>
-                Si encuentra algún problema o error, notifíquelo a{" "}
-                <a href="mailto:briannn97@gmail.com">briannn97@gmail.com</a>
+                Aqui encontraras toda informacion necesaria sobre mi vida y mi
+                experiencia como desarrollador de software 🤗
               </p>
             </>
           )}
@@ -149,7 +151,7 @@ const DevelopmentNotice: React.FC = () => {
                 marginTop: "10px",
               }}
             >
-              Comprendo
+              Ir al Portafolio
             </button>
           )}
         </div>

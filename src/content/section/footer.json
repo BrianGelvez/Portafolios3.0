@@ -2,12 +2,12 @@
 	"Websites": [
 		{
 			"person": "Brian Gelvez 3.0",
-			"link": "https://briangelvez-portafolios3.0.vercel.app/",
+			"link": "https://portafolios-briangelvez.vercel.app/",
 			"note": "Portafolios"
 		},
 		{
 			"person": "Brian Gelvez 2.0",
-			"link": "mi-portafolios-2-0.vercel.app",
+			"link": "https://mi-portafolios-2-0.vercel.app/",
 			"note": "Portafolios"
 		},
 		{
@@ -25,12 +25,12 @@
 		},
 		{ 
 			"person": "Destacado",
-			"link": "https://portafolios-briangelvez.vercel.app//docs",
+			"link": "https://portafolios-briangelvez.vercel.app/docs",
 			"note": ""
 		},	
 		{
 			"person": "Proyetos",
-			"link": "https://portafolios-briangelvez.vercel.app//projects",
+			"link": "https://portafolios-briangelvez.vercel.app/projects",
 			"note": ""
 		},
 		{
